@@ -10,7 +10,6 @@ window.onload = function() {
   document.querySelector("#excuse").innerHTML = generateExcuse();
   console.log("My dog ate my homework!");
 };
-
 let generateExcuse = () => {
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
   let action = ["ate", "peed", "crushed", "broke"];
